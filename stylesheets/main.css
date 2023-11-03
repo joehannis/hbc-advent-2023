@@ -19,12 +19,12 @@ h6 {
 }
 
 .logo {
-  width: 100%; /* Make the logo width 100% for mobile */
+  width: 100%;
   max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0; /* Remove margin for better centering */
+  margin: 0;
 }
 
 .title,
@@ -53,8 +53,6 @@ h6 {
   margin: 10% 5% 5%;
 }
 
-/* Media query for larger screens */
-
 @media (min-width: 1000px) {
   body {
     height: 100vh;
@@ -63,11 +61,20 @@ h6 {
   .logo {
     display: flex;
     width: 20%;
-    margin: 5% auto; /* Adjust the margin for better centering */
-    justify-content: center; /* Center the logo horizontally */
+    margin: 5% auto;
+    justify-content: center;
+  }
+
+  .ABV,
+  .style,
+  .description {
+    font-family: 'Big Noodle Titling';
+    font-size: 1.5rem;
+    margin: 5%;
   }
 
   .title {
+    font-family: 'Big Noodle Titling Oblique';
     font-size: 3rem;
     margin: 10% 5% 5%;
   }
