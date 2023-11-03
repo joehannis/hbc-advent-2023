@@ -27,6 +27,15 @@ h6 {
   justify-content: center;
 }
 
+@font-face {
+  font-family: 'Big Noodle Titling';
+  src: url('../branding/bignoodletitling/big_noodle_titling.ttf');
+}
+
+@font-face {
+  font-family: 'Big Noodle Titling Oblique';
+  src: url('../branding/bignoodletitling/big_noodle_titling_oblique.ttf');
+}
 .title,
 .ABV,
 .style,
@@ -37,6 +46,14 @@ h6 {
   justify-content: center;
   text-align: center;
   font-size: 2rem;
+}
+
+.ABV,
+.style,
+.description {
+  font-family: 'Big Noodle Titling';
+  font-size: 3rem;
+  margin: 5%;
 }
 
 .title {
