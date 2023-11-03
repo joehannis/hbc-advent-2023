@@ -29,12 +29,11 @@ h6 {
 }
 
 .logo {
-  width: 100%;
-  max-width: 100%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .title,
@@ -79,13 +78,13 @@ h6 {
   .style,
   .description {
     font-family: 'Big Noodle Titling';
-    font-size: 3rem;
+    font-size: 5rem;
     margin: 2%;
   }
 
   .title {
     font-family: 'Big Noodle Titling Oblique';
-    font-size: 5rem;
+    font-size: 7rem;
     margin: 2%;
   }
 }
