@@ -45,20 +45,19 @@ h6 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 2rem;
 }
 
 .ABV,
 .style,
 .description {
   font-family: 'Big Noodle Titling';
-  font-size: 1.5rem;
+  font-size: 3rem;
   margin: 5%;
 }
 
 .title {
   font-family: 'Big Noodle Titling Oblique';
-  font-size: 3rem;
+  font-size: 5rem;
   margin: 10% 5% 5%;
 }
 
