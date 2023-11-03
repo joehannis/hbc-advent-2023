@@ -72,6 +72,8 @@ h6 {
   .logo {
     width: 20%;
     margin: 5%;
+    align-items: center;
+    justify-content: center;
   }
 
   .title {
