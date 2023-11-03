@@ -70,6 +70,7 @@ h6 {
   }
 
   .logo {
+    display: flex;
     width: 20%;
     margin: 5%;
     align-items: center;
