@@ -1,19 +1,12 @@
+/* Mobile-first styles */
+
 body {
   padding: 0;
   margin: 0;
   background-color: #000000;
   color: #ffffff;
   overflow: hidden;
-}
-
-@font-face {
-  font-family: 'Big Noodle Titling Oblique';
-  src: url(../branding/bignoodletitling/big_noodle_titling_oblique.ttf);
-}
-
-@font-face {
   font-family: 'Big Noodle Titling';
-  src: url(../branding/bignoodletitling/big_noodle_titling.ttf);
 }
 
 h1,
@@ -25,17 +18,10 @@ h6 {
   margin: 0;
 }
 
-html,
-body,
-#__next {
-  height: 100%;
-}
-
 .logo {
-  width: 20%;
-  height: auto;
-  margin: 0 auto;
-  margin-top: 7%;
+  width: 50%;
+  max-width: 100%;
+  margin: 5% auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,44 +31,34 @@ body,
 .ABV,
 .style,
 .description {
-  margin: 2%;
+  margin: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-size: 2rem;
 }
 
 .title {
   font-family: 'Big Noodle Titling Oblique';
   font-size: 3rem;
-  margin-top: 5%;
+  margin: 10% 5% 5%;
 }
 
-.ABV,
-.style,
-.description {
-  font-family: 'Big Noodle Titling';
-  font-size: 2rem;
-}
+/* Media query for larger screens */
 
-@media (max-width: 920px) {
+@media (min-width: 1000px) {
   body {
     height: 100vh;
   }
+
   .logo {
-    width: 50%;
-    margin-top: 10%; /* Adjust the margin-top as needed for proper centering */
+    width: 20%;
+    margin: 5%;
   }
 
   .title {
-    font-size: 2.5rem;
-    margin-top: 5%;
-  }
-
-  .ABV,
-  .style,
-  .description {
-    font-size: 2rem;
-    margin: 2%;
+    font-size: 3rem;
+    margin: 10% 5% 5%;
   }
 }
