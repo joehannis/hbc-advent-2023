@@ -37,7 +37,7 @@ body,
   margin: 0 auto;
   margin-top: 7%;
   display: flex;
-  align-items: center; /* Use align-items instead of align-self */
+  align-items: center;
   justify-content: center;
 }
 
@@ -47,7 +47,7 @@ body,
 .description {
   margin: 2%;
   display: flex;
-  align-items: center; /* Use align-items instead of align-self */
+  align-items: center;
   justify-content: center;
   text-align: center;
 }
@@ -71,8 +71,7 @@ body,
   }
   .logo {
     width: 50%;
-    margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 10%; /* Adjust the margin-top as needed for proper centering */
   }
 
   .title {
