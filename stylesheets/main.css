@@ -64,3 +64,28 @@ body,
   font-family: 'Big Noodle Titling';
   font-size: 2rem;
 }
+
+@media (max-width: 768px) {
+  .logo {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .title {
+    font-family: 'Big Noodle Titling Oblique';
+    font-size: 2rem;
+    margin-top: 5%;
+  }
+
+  .ABV,
+  .style,
+  .description {
+    font-family: 'Big Noodle Titling';
+    font-size: 1.5rem;
+  }
+}
