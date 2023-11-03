@@ -56,7 +56,7 @@ a {
 .ABV,
 .style {
   font-family: 'Big Noodle Titling';
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 5%;
 }
 
@@ -73,13 +73,13 @@ a:hover {
 
 .description {
   font-family: 'Roboto';
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin: 5%;
 }
 
 .title {
   font-family: 'Big Noodle Titling Oblique';
-  font-size: 5rem;
+  font-size: 3rem;
   margin: 10% 5% 5%;
 }
 
@@ -100,19 +100,19 @@ a:hover {
   .ABV,
   .style {
     font-family: 'Big Noodle Titling';
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 2%;
   }
 
   .description {
     font-family: 'Roboto';
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 2%;
   }
 
   .title {
     font-family: 'Big Noodle Titling Oblique';
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 2%;
   }
 }
