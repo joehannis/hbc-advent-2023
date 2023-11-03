@@ -64,6 +64,7 @@ h6 {
     display: flex;
     width: 20%;
     margin: 5% auto; /* Adjust the margin for better centering */
+    justify-content: center; /* Center the logo horizontally */
   }
 
   .title {
