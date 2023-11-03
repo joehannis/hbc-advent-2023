@@ -44,7 +44,8 @@ h6 {
 .title,
 .ABV,
 .style,
-.description {
+.description,
+a {
   margin: 5%;
   display: flex;
   align-items: center;
@@ -57,6 +58,17 @@ h6 {
   font-family: 'Big Noodle Titling';
   font-size: 3rem;
   margin: 5%;
+}
+
+a {
+  font-family: 'Big Noodle Titling';
+  font-size: 3rem;
+  margin: 5%;
+  color: white;
+}
+
+a:hover {
+  color: blue;
 }
 
 .description {
