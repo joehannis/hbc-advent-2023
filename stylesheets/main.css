@@ -10,6 +10,11 @@
   src: url('../branding/bignoodletitling/big_noodle_titling_oblique.ttf');
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('../branding/Roboto-Medium.ttf');
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -48,9 +53,14 @@ h6 {
 }
 
 .ABV,
-.style,
-.description {
+.style {
   font-family: 'Big Noodle Titling';
+  font-size: 3rem;
+  margin: 5%;
+}
+
+.description {
+  font-family: 'Roboto';
   font-size: 3rem;
   margin: 5%;
 }
@@ -74,11 +84,16 @@ h6 {
   }
 
   .ABV,
-  .style,
-  .description {
+  .style {
     font-family: 'Big Noodle Titling';
     font-size: 3rem;
     margin: 2%;
+  }
+
+  .description {
+    font-family: 'Roboto';
+    font-size: 3rem;
+    margin: 5%;
   }
 
   .title {
