@@ -1,5 +1,15 @@
 /* Mobile-first styles */
 
+@font-face {
+  font-family: 'Big Noodle Titling';
+  src: url('../branding/bignoodletitling/big_noodle_titling.ttf');
+}
+
+@font-face {
+  font-family: 'Big Noodle Titling Oblique';
+  src: url('../branding/bignoodletitling/big_noodle_titling_oblique.ttf');
+}
+
 body {
   padding: 0;
   margin: 0;
