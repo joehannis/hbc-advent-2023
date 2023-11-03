@@ -79,13 +79,13 @@ h6 {
   .style,
   .description {
     font-family: 'Big Noodle Titling';
-    font-size: 2rem;
-    margin: 1%;
+    font-size: 3rem;
+    margin: 2%;
   }
 
   .title {
     font-family: 'Big Noodle Titling Oblique';
-    font-size: 3rem;
-    margin: 1%;
+    font-size: 5rem;
+    margin: 2%;
   }
 }
