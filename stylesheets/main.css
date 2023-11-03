@@ -8,12 +8,12 @@ body {
 
 @font-face {
   font-family: 'Big Noodle Titling Oblique';
-  src: url(../branding//bignoodletitling/big_noodle_titling_oblique.ttf);
+  src: url(../branding/bignoodletitling/big_noodle_titling_oblique.ttf);
 }
 
 @font-face {
   font-family: 'Big Noodle Titling';
-  src: url(../branding//bignoodletitling/big_noodle_titling.ttf);
+  src: url(../branding/bignoodletitling/big_noodle_titling.ttf);
 }
 
 h1,
@@ -37,7 +37,7 @@ body,
   margin: 0 auto;
   margin-top: 3%;
   display: flex;
-  align-self: center;
+  align-items: center; /* Use align-items instead of align-self */
   justify-content: center;
 }
 
@@ -47,7 +47,7 @@ body,
 .description {
   margin: 2%;
   display: flex;
-  align-self: center;
+  align-items: center; /* Use align-items instead of align-self */
   justify-content: center;
   text-align: center;
 }
@@ -71,16 +71,11 @@ body,
   }
   .logo {
     width: 50%;
-    height: auto;
     margin: 0 auto;
     margin-top: 10%;
-    display: flex;
-    align-self: center;
-    justify-content: center;
   }
 
   .title {
-    font-family: 'Big Noodle Titling Oblique';
     font-size: 2.5rem;
     margin-top: 5%;
   }
@@ -88,9 +83,7 @@ body,
   .ABV,
   .style,
   .description {
-    font-family: 'Big Noodle Titling';
     font-size: 2rem;
     margin: 2%;
-    text-align: center;
   }
 }
