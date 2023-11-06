@@ -43,6 +43,7 @@ h6 {
 
 .title,
 .ABV,
+.brewer,
 .style,
 .description,
 a {
@@ -54,10 +55,10 @@ a {
 }
 
 .ABV,
+.brewer,
 .style {
   font-family: 'Big Noodle Titling';
   font-size: 2rem;
-  margin: 5%;
 }
 
 a {
@@ -98,6 +99,7 @@ a:hover {
   }
 
   .ABV,
+  .brewer,
   .style {
     font-family: 'Big Noodle Titling';
     font-size: 2rem;
