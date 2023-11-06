@@ -39,6 +39,7 @@ h6 {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  margin-bottom: 2%;
 }
 
 .title,
@@ -47,7 +48,7 @@ h6 {
 .style,
 .description,
 a {
-  margin: 5%;
+  margin: 3%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +82,6 @@ a:hover {
 .title {
   font-family: 'Big Noodle Titling Oblique';
   font-size: 3rem;
-  margin: 10% 5% 5%;
 }
 
 @media (min-width: 1000px) {
