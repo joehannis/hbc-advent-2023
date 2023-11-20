@@ -15,6 +15,11 @@
   src: url('../branding/Roboto-Medium.ttf');
 }
 
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('../branding/RobotoCondensed-Italic-VariableFont_wght.ttf');
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -74,7 +79,7 @@ a:hover {
 }
 
 .description {
-  font-family: 'Roboto';
+  font-family: 'Roboto Condensed';
   font-size: 1.5rem;
   margin: 5%;
 }
